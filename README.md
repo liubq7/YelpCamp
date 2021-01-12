@@ -26,7 +26,7 @@ git clone git@github.com:liubq7/YelpCamp.git
 cd yelpcamp
 npm install
 ```
-2. Create a .env file in the root of the project and add the following (replace the contents in brackets with yours)
+2. Create a `.env` file in the root of the project and add the following (replace the contents in brackets with yours)
 ```
 CLOUDINARY_CLOUD_NAME=<name>
 CLOUDINARY_KEY=<key>
@@ -35,6 +35,9 @@ MAPBOX_TOKEN=<token>
 ```
 3. Start local server
 ```
+npm start
+
+// or
 node app.js
 ```
 4. Open your web browser and visit the address `localhost:3000`
