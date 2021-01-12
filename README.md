@@ -33,12 +33,8 @@ CLOUDINARY_KEY=<key>
 CLOUDINARY_SECRET=<secret>
 MAPBOX_TOKEN=<token>
 ```
-3. Seed your database (optional) 
-```
-node seeds/index.js
-```
-4. Start local server
+3. Start local server
 ```
 node app.js
 ```
-5. Open your web browser and visit the address `localhost:3000`
+4. Open your web browser and visit the address `localhost:3000`
